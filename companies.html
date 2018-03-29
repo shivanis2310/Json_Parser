@@ -1,0 +1,28 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>
+			Homework 4
+		</title>
+		<style>
+
+		#location {
+			text-align:center;
+		}
+
+	</style>
+	<script src="companies.js"></script>
+	</head>
+	<body>
+		<h1 style="text-align:center">Enter URL for Trucking List JSON File </h1>
+
+		<form name="myform" method="POST" id="location">
+			<input type="text" name="URL" maxlength="255" size="100" required></input>
+			<br />
+			<input type="button" name="submit" value="Submit Query"
+			onClick="viewJSON(myform)" />
+		</form>
+	</body>
+
+	</html>
